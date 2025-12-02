@@ -17,7 +17,7 @@ L’état détecté est ensuite envoyé via **port série** vers un **Raspberry 
 
 - LED verte (GPIO 29) : Yeux ouverts
 - LED rouge (GPIO 31) : Yeux fermés
-Lorsque le système est en attente, les deux LEDs sont éteintes.
+- Lorsque le système est en attente, les deux LEDs sont éteintes.
 
 ## Captures d’Écran
 
@@ -49,17 +49,17 @@ Lorsque le système est en attente, les deux LEDs sont éteintes.
 python -m venv env_eyes
 env_eyes\Scripts\activate
 ```
-###Linux / Mac
+### Linux / Mac
 ```bash
 python3 -m venv env_eyes
 source env_eyes/bin/activate
 ```
-##Installer les dépendances
+## Installer les dépendances
 ```bash
 pip install -r requirements.txt
 ```
-##Exécution du Projet
-###Sur PC
+## Exécution du Projet
+### Sur PC
 ```bash
 python detect_eyes_serial.py
 ```
@@ -67,12 +67,12 @@ python detect_eyes_serial.py
 
 * Envoi de l’état au port série (COM virtuel)
 
-##Sur Proteus / Raspberry Pi
+## Sur Proteus / Raspberry Pi
 * Connexion du port série virtuel au Raspberry ou Proteus
 
 * LED verte / rouge et affichage LCD 16x2 selon l’état reçu
 
-##Fichiers Principaux
+## Fichiers Principaux
 `detect_eyes_serial.py` : Détection et envoi des résultats
 
 `eyes_detector.model.h5` : Modèle entraîné
