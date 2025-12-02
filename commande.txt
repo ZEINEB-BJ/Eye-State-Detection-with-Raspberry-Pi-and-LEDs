@@ -1,0 +1,6 @@
+env_eyes\Scripts\activate
+python train_eyes.py
+
+
+env_eyes\Scripts\activate
+python detect_eyes_serial.py
