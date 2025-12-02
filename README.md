@@ -3,13 +3,6 @@
 ## Description du Projet
 
 Ce projet permet de détecter en temps réel si les yeux d'une personne sont **ouverts** ou **fermés** à l'aide d'une **webcam**.  
-Le modèle est entraîné avec un **dataset téléchargé depuis Kaggle** pour la classification yeux ouverts / yeux fermés.  
-
-L’état détecté est ensuite envoyé via **port série** vers  une **simulation Proteus**, qui affiche l’information sur un **LCD 16x2** et contrôle deux LEDs :  
-
-- LED verte (GPIO 29) : Yeux ouverts  
-- LED rouge (GPIO 31) : Yeux fermés  
-Ce projet permet de détecter en temps réel si les yeux d'une personne sont **ouverts** ou **fermés** à l'aide d'une **webcam**.
 
 Le modèle est entraîné avec un **dataset téléchargé depuis Kaggle** pour la classification yeux ouverts / yeux fermés.
 
